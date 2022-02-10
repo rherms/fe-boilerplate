@@ -6,14 +6,14 @@
  * contain code that should be seen on all pages. (e.g. navigation bar)
  */
 
-import * as React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import * as React from "react";
+import { Helmet } from "react-helmet-async";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
 
-import { GlobalStyle } from 'styles/global-styles';
+import { GlobalStyle } from "styles/global-styles";
 
-import { HomePage } from './pages/HomePage/HomePage';
-import { NotFoundPage } from './pages/NotFoundPage/NotFoundPage';
+import { HomePage } from "./pages/HomePage/HomePage";
+import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage";
 
 export function App() {
   return (

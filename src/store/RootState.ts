@@ -1,6 +1,6 @@
 // [IMPORT NEW CONTAINERSTATE ABOVE] < Needed for generating containers seamlessly
 
-import { HomeState, HOME_ROOT_KEY } from 'app/pages/HomePage/redux/HomeState';
+import { HomeState, HOME_ROOT_KEY } from "app/pages/HomePage/redux/HomeState";
 
 /* 
   Because the redux-injectors injects your reducers asynchronously somewhere in your code
