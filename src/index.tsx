@@ -18,6 +18,7 @@ import "@blueprintjs/core/lib/css/blueprint.css";
 import "@blueprintjs/popover2/lib/css/blueprint-popover2.css";
 import "@blueprintjs/icons/lib/css/blueprint-icons.css";
 import "@blueprintjs/select/lib/css/blueprint-select.css";
+import "./index.scss";
 
 // Import root app
 import { App } from "./app/App";

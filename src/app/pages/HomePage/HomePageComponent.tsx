@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 import { useDispatch, useSelector } from "react-redux";
 import { getNumClicks } from "./redux/HomeSelectors";
 import { useHomepageSlice } from "./redux/HomeState";
+import "./HomePageComponent.scss";
 
 export function HomePageComponent() {
   const dispatch = useDispatch();
@@ -23,6 +24,7 @@ export function HomePageComponent() {
         text="Click to increment"
         intent={Intent.PRIMARY}
         onClick={handleClick}
+        className="home-page-component--button"
       />
       Your value: {numClicks}
     </>
